@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: darkblue; /* estils capçalera */
+    width: 100%;
+    position: fixed;
+    color: white;
+    text-align: center;
+}
+
+nav, nav a{
+    background-color: darkslateblue; /* estils navegació a la capçalera */
+    color: white;
+    position: sticky;
+    text-align: center;
+}
+
+#navegador{         /* definir espais navegació */
+    top: 12%;
+    padding: 5px; 
+}
+
+a:hover{
+    color: red; 
+}
+
+main{
+    margin: 20px; /* definir espais seccio principal de la pagina */
+}
+
+#seccio1{
+    margin-top: 100px; /* definir espai entre primera seccio i capçalera */
+}
+
+section{
+    background-color: lightgray;  /* estils i espais de les seccions */
+    margin: 20px;
+    padding: 25px;
+    margin-top: 50px;   
+}
+
+footer{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
